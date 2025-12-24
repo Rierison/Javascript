@@ -130,8 +130,117 @@
 
 
 // 10 - while - // Estrutura de repetição com teste lógico no início
-let p = 0;
+// let p = 0; // inicialização da variável
 
-while(p < 5) { // enquanto p for menor que 5
-    console.log(`Repetindo ${p}`); // imprima essa mensagem
+// while(p < 5) { // enquanto p for menor que 5
+//     console.log(`Repetindo ${p}`); // imprima essa mensagem
+//     p = p + 1; // incremente o valor de p
+// }
+
+// // loop infinito // 
+// let x = 10; // inicialização da variável
+
+// while (x > 5) { // enquanto x for maior que 5
+//     console.log(`Imprimindo ${x}`); // imprima essa mensagem
+// }
+
+// 11 - do...while - // Estrutura de repetição com teste lógico no final
+// let o = 10; // inicialização da variável
+
+// do { // faça
+//     console.log(`Valor de o: ${o}`); // imprima essa mensagem
+//     o--; // decremente o valor de o
+// } while (o > 1); // enquanto o for maior que 1
+
+
+
+// // 12 - for - // Estrutura de repetição com contador
+// for (let t = 0; t < 10; t++) { // inicialização, condição e incremento
+//     console.log("Repetindo algo..."); // imprima essa mensagem
+// }
+
+// let r = 10;
+
+// for (r; r > 0; r = r - 1) { // inicialização, condição e decremento
+//     console.log(`O r está diminuindo: ${r}`); // imprima essa mensagem
+// }
+
+// 13 - Identação de código
+// for (let u = 0; u < 10; u++) { // inicialização, condição e incremento
+//     if (u * 2 > 10) { // se u vezes 2 for maior que 10
+//         console.log(`Maior que 10! ${u}`) // imprima essa mensagem
+//     } else { // caso contrário
+//     if (u / 2 === 0) { // se u dividido por 2 for igual a 0
+//         console.log(`Deu 0`) // imprima essa mensagem
+//     }
+// }
+// }
+
+
+// 14 - Break // Interrompendo loops para de executar o loop por meio da palavra-chave break
+// for (let g = 20; g > 10; g--) { // inicialização, condição e decremento
+//     console.log(`O valor de g é: ${g}`); // imprima o valor de g
+
+//     if(g === 15) { // se g for igual a 12
+//         console.log(`O g é 15!`); // imprima essa mensagem
+//         break; // interrompa o loop
+// }
+
+// }
+
+
+// for(let p = 30; p > 20; p--) { // inicialização, condição e decremento
+//     console.log(`O valor de p é: ${p}`); // imprima o valor de p
+
+//     if(p === 25) { // se p for igual a 25
+//         console.log("O p é 25!"); // imprima essa mensagem
+//         break;
+//     }
+
+// }
+
+// 15 - Continue // Pulando iterações em loops por meio da palavra-chave continue
+// for (let s= 0; s < 10; s = s + 1 ) { // inicialização, condição e incremento
+//     // operador de resto = %   
+//     if (s % 2 === 0) { // se s for par
+//         console.log("Número par") // 'imprima essa mensagem
+//         continue; // pule para a próxima iteração 
+
+// }
+// console.log(s); // imprima o valor de s
+// }
+
+// 16 - Switch  // Estrutura condicional múltipla com a palavra-chave switch
+const job = "Advogado"; // variável com o valor "Advogado"
+
+switch (job) { // variável para testar
+    case "Programador": // caso seja "Programador"
+        console.log("Você é um programador!");
+        break; // encerra o bloco
+    case "Advogado": // caso seja "Advogado"
+        console.log("Você é um advogado!");
+        break; // encerra o bloco
+    case "Engenheiro": // caso seja "Engenheiro"
+        console.log("Você é um engenheiro!");
+        break; // encerra o bloco    
+    default: // caso nenhuma das condições seja atendida
+        console.log("Profissão não encontrada.");
+} 
+
+// Switch "errado" // sem o uso do break, maneira errada de criar o switch
+let l = 100;
+
+
+// Estrutura de código com switch
+switch (l) {
+    case 200:
+        console.log("L é 200");        
+    case 100:
+        console.log("L é 100");        
+    case 10:
+        console.log("L é 10");                
+    default: // caso nenhuma das condições seja atendida
+        console.log("L não foi encontrado");
 }
+
+
