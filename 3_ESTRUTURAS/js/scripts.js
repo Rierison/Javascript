@@ -70,35 +70,68 @@
 
 
 
-// 7 - if
-const m = 10;
+// 7 - if  - // Estrutura condicional
+// const m = 10;
 
-if (m > 5) {
-    console.log("M é maior que 5");
-}
+// if (m > 5) {
+//     console.log("M é maior que 5");
+// }
 
-const user = "João";
+// const user = "João";
 
-if(user === "João") {
-    console.log("Olá, João!");
+// if(user === "João") {
+//     console.log("Olá, João!");
 
-}
+// }
 
-if(user === "Maria") {
-    console.log("Olá, Maria!");
-}
+// if(user === "Maria") {
+//     console.log("Olá, Maria!");
+// }
 
-console.log(user === "João", user === "Maria"); // true
+// console.log(user === "João", user === "Maria"); // true
 
+// 8 - else  - // Estrutura condicional alternativa
+// const loggedIn = false; // variável booleana
 
-// const idade = 18;
+// if (loggedIn) { // se estiver autenticado
+//     console.log("Está autenticado!"); // Imprima está mensagem
+// } else { // caso contrário
+//     console.log("Não está autenticado!"); // Imprima está outra mensagem
+// }
 
-// if (idade >= 18) {
-//     console.log("Maior de idade");
+// const q = 10;
+// const w = 15;
+
+// if (q > 5 && w > 20) { // se q for maior que 5 e w for maior que 10
+//     console.log("Números mais altos"); // Imprima essa mensagem
+// } else { // caso contrário
+//     console.log("Os números não são mais altos"); // Imprima essa outra mensagem
+// }
+
+// 9 - else if  - // Estrutura condicional com múltiplas alternativas
+// if (1 > 2) { // condição 1
+//     console.log("Teste"); // ação 1
+// } else if(2 > 3) { // condição 2
+//     console.log("Teste 2"); // ação 2
+// } else if (5 > 1) { // condição 3
+//     console.log("Agora sim!"); // ação 3
+// }
+
+// const userName = "Maria";
+// const userAge = 25;
+
+// if (userName === "José") { // condição 1
+//     console.log("Bem vindo José!"); // ação 1
+// } else if (userName === "Maria" && userAge === 25) { // 
+//     console.log("Olá Maria, você tem 25 anos!"); // ação 2
+// } else { // caso nenhuma condição seja atendida
+//     console.log("Nenbuma condição aceita"); // ação padrão
 // }
 
 
-// ...else - // tomada de decisão
+// 10 - while - // Estrutura de repetição com teste lógico no início
+let p = 0;
 
-
-// Estrutura de Controle: 
+while(p < 5) { // enquanto p for menor que 5
+    console.log(`Repetindo ${p}`); // imprima essa mensagem
+}
